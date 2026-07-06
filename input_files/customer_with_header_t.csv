@@ -1,0 +1,4 @@
+CustomerID,CustomerName,Email,City,Country
+1,John Doe,john@gmail.com,Bangalore,India
+3,Ravi Kumar,ravi@gmail.com,Chennai,India
+2,Jane Smith,jane@gmail.com,Hyderabad,India

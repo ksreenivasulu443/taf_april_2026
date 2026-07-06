@@ -1,0 +1,16 @@
+source:
+  type: 'sqlserver'
+  transformation: ['Y','sql']
+  table: NA
+
+
+target:
+  type: 'sqlserver'
+  transformation: ['N','NA']
+  table: '[silver].[Customer_Clean]'
+  query: NA
+  exclude_column: ['create-date', 'update_date']
+
+validation:
+  keycolumn: ['CustomerID']
+

@@ -1,0 +1,13 @@
+Identifier,Surname,given_name,middle_initial,suffix,Primary_street_number,primary_street_name,city,state,zipcode,Primary_street_number_prev,primary_street_name_prev,city_prev,state_prev,zipcode_prev,Email,Phone,birthmonth
+1.0,Kattubadi,Sreenivasulu,abc,sr,9/566,Satya sai nagar,Banglore,KA,560045,23/566,Bala nagar,Anantapur,AP,515671,Kattubadi@gmail.com,8765656553,199801
+2.0,Hari,Prasad,def,mr,9/567,Shanti nagar,Banglore,KA,560045,23/567,Bala nagar,Atest,AP,515672,Kattubadi@gmail.com,8765656554,199502
+3.0,Kattubadi,Ram,abc,ms,9/568,Tirumala nagar,Banglore,KA,43534,23/568,Bala nagar,Anantapur,AP,515673,Kattubadi@gmail.com,8765656555,199203
+4.0,Raheem,Ahammed,def,in,9/569,Madhapur,Banglore,KA,560045,23/569,Bala nagar,Anantapur,AP,515674,Kattubadi@gmail.com,8765656556,198904
+5.0,mahesh,Kumar,abc,dr,9/570,Miyapur,Banglore,KA,560045,23/570,Bala nagar,Anantapur,AP,515675,Kattubadi@gmail.com,8765656557,198605
+6.0,Hari,Somanath,def,test_jr,9/571,Somasekar nagar,Banglore,KA,560045,23/571,Bala nagar,Anantapur,AP,515676,Kattubadi@gmail.com,8765656558,198306
+7.0,Kattubadi,Ramesh,abc,test_jr,9/572,Bola nagar,Banglore,KA,560045,23/572,Bala nagar,Anantapur,AP,515677,Kattubadi@gmail.com,8765656559,198007
+8.0,Ranganath,V,def,test_jr,9/573,rr nagar,Banglore,KA,560045,23/573,Bala nagar,Anantapur,AP,515678,Kattubadi@gmail.com,8765656560,197708
+9.0,Bhole,Hamad,abc,test_jr,9/574,SS nagar,Banglore,KA,560045,23/574,Bala nagar,Anantapur,AP,515679,Kattubadi@gmail.com,8765656561,197409
+10.0,Arun,LK,test_middle_initial,test_jr,9/575,Maruti nagar,Banglore,KA,560045,23/575,Bala nagar,Anantapur,AP,515680,Kattubadi@gmail.com,8765656562,197110
+11.0,Arun,LK,test_middle_initial,as,9/575,Maruti nagar,Banglore,KA,560045,23/575,Bala nagar,Anantapur,AP,515680,Kattubadi@gmail.com,8765656562,197110
+99999.0,Arun,LK,test_middle_initial,tg,9/575,Maruti nagar,Banglore,KA,560045,23/575,Bala nagar,Anantapur,AP,515680,Kattubadi@gmail.com,8765656562,197110

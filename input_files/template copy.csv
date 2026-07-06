@@ -1,0 +1,6 @@
+id,name,age,salary,dept,joining_date,remarks
+1,Alice,25,50000,IT,2023-01-10,"Good employee"
+2,Bob,30,60000,HR,2022-05-15,"Works
+hard"
+3,Charlie,NA,70000,Finance,2021-07-20,"Excellent"
+4,David,40,invalid,IT,2020-03-10,"Top performer"

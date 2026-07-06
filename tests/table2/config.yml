@@ -1,0 +1,16 @@
+source:
+  type: 'csv'
+  file_path: "/Users/admin/PycharmProjects/taf_april_2026/input_files/Contact_info.csv"
+  header: 0
+  sep: ','
+  sheet_name: NA
+
+target:
+  type: 'parquet'
+  file_path: "/Users/admin/PycharmProjects/taf_april_2026/input_files/userdata1.parquet"
+  header: 0
+  sep: ','
+
+validation:
+  keycolumn: ['id']
+

@@ -1,0 +1,9 @@
+FileName: Customer Extract
+ExtractDate: 2026-06-12
+CustomerID,CustomerName,City
+101,John,Bangalore
+102,Ravi,Hyderabad
+103,Jane,Chennai
+
+TotalRecords=3
+FileStatus=SUCCESS

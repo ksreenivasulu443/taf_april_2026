@@ -1,0 +1,15 @@
+source:
+  type: 'csv'
+  file_path: "/Users/admin/PycharmProjects/taf_april_2026/input_files/customer_with_header.csv"
+  header: 0
+  sep: ','
+
+target:
+  type: 'csv'
+  file_path: "/Users/admin/PycharmProjects/taf_april_2026/input_files/customer_with_header_t.csv"
+  header: 0
+  sep: ','
+
+validation:
+  keycolumn: ['CustomerID']
+

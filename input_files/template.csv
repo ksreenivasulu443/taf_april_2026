@@ -1,0 +1,4 @@
+﻿source_file,target_file,key_column
+/Users/harish/PycharmProjects/april_automation_batch/FIles/Contact_info.csv,/Users/harish/PycharmProjects/april_automation_batch/FIles/Contact_info_t.csv,identifier
+/Users/harish/PycharmProjects/april_automation_batch/FIles/Contact_info.csv,/Users/harish/PycharmProjects/april_automation_batch/FIles/Contact_info_t.csv,surname
+/Users/harish/PycharmProjects/april_automation_batch/FIles/IPL Ball-by-Ball 2008-2020.csv,/Users/harish/PycharmProjects/april_automation_batch/FIles/IPL Ball-by-Ball 2008-2020.csv,

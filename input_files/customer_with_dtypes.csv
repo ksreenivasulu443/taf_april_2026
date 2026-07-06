@@ -1,0 +1,4 @@
+CustomerID,CustomerName,Age,Salary,IsActive,Email,PhoneNumber,Country,Rating
+1001,John Doe,30,75000.50,True,john@gmail.com,9876543210,India,4.5
+1002,Ravi Kumar,28,65000.75,False,ravi@gmail.com,9876543211,India,4.2
+1003,Jane Smith,35,85000.00,True,jane@gmail.com,9876543212,USA,4.8
