@@ -4,6 +4,8 @@ import yaml
 import os
 from src.utility.read_file_library import read_file
 from src.utility.read_db_library import read_db
+import logging
+from datetime import datetime
 
 @pytest.fixture(scope='module')
 def read_config(request):
@@ -41,3 +43,23 @@ def read_data(read_config,request):
     print("=" * 100)
     print(target)
     return source, target, config_data
+
+# conftest.py
+
+print("")
+
+
+os.makedirs("logs", exist_ok=True)
+
+log_file = f"logs/log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+
+print("log file", log_file)
+
+logging.basicConfig(
+    filename=log_file,
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
+
+
+

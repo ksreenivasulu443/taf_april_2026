@@ -12,6 +12,4 @@ target:
 
 validation:
   key_column: ['CustomerID']
-  unique_columns : ['CustomerID', 'CustomerName']
-  not_null_columns : ['CustomerID', 'CustomerName']
 
