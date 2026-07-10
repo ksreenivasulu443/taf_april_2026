@@ -1,0 +1,39 @@
+2026-07-10 06:52:54,259 - INFO - Common Columns : ['City', 'Country', 'CustomerID', 'CustomerName', 'Email']
+2026-07-10 06:52:54,295 - INFO - ===================================
+2026-07-10 06:52:54,295 - INFO - DATA COMPARE : FAIL
+2026-07-10 06:52:54,295 - INFO - Total Failed Rows : 6
+2026-07-10 06:52:54,296 - INFO - ===================================
+2026-07-10 06:52:54,298 - INFO - 
+ CustomerID CustomerName          Email      City Country                                                         hash_key datafrom
+          1     John Doe john@gmail.com Bangalore   India 3be39bd4c94b4084deb835b26aa421c159d51f00e5071fee8d689126fce9c732   SOURCE
+          2   Jane Smith jane@gmail.com Hyderabad   India 39bb94f463807b285ea689bcb52dbff47b3f501714aad950711c8490bc70af73   SOURCE
+          5   Ravi Kumar ravi@gmail.com   Chennai   India e2306d23e314755c7dec4c03e579a460ab9d24bc3307cf3c796b8b352f28e574   SOURCE
+          1     John Doe  john@test.com Bangalore   India e927d08366d17d2931648fcc97b448ee1a9c324f118294707e2867b747374764   TARGET
+          2   Jane Smith jane@gmail.com       ghg   India fec50ee56fe0383f4df58d08e69d640d2af0b722bcf1d359d53aeb6447435f91   TARGET
+          5      Ravi kk ravi@gmail.com   Chennai   India 9ed5b211007702c89d274e53ba637451801d9b61036074dac134345b18f0e432   TARGET
+2026-07-10 06:52:54,309 - INFO - 
+2026-07-10 06:52:54,309 - INFO - -----------------------------------------
+2026-07-10 06:52:54,309 - INFO - Column : City
+2026-07-10 06:52:54,309 - INFO - Mismatch Count : 1
+2026-07-10 06:52:54,309 - INFO - -----------------------------------------
+2026-07-10 06:52:54,312 - INFO - 
+ CustomerID City_source City_target
+          2   Hyderabad         ghg
+2026-07-10 06:52:54,314 - INFO - 
+2026-07-10 06:52:54,314 - INFO - -----------------------------------------
+2026-07-10 06:52:54,314 - INFO - Column : CustomerName
+2026-07-10 06:52:54,314 - INFO - Mismatch Count : 1
+2026-07-10 06:52:54,314 - INFO - -----------------------------------------
+2026-07-10 06:52:54,316 - INFO - 
+ CustomerID CustomerName_source CustomerName_target
+          5          Ravi Kumar             Ravi kk
+2026-07-10 06:52:54,317 - INFO - 
+2026-07-10 06:52:54,317 - INFO - -----------------------------------------
+2026-07-10 06:52:54,317 - INFO - Column : Email
+2026-07-10 06:52:54,317 - INFO - Mismatch Count : 1
+2026-07-10 06:52:54,317 - INFO - -----------------------------------------
+2026-07-10 06:52:54,319 - INFO - 
+ CustomerID   Email_source  Email_target
+          1 john@gmail.com john@test.com
+2026-07-10 06:52:54,319 - INFO - 
+2026-07-10 06:52:54,319 - INFO - FINAL STATUS : FAIL

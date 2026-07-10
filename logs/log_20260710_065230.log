@@ -1,0 +1,5 @@
+2026-07-10 06:52:30,590 - INFO - Common Columns : ['City', 'Country', 'CustomerID', 'CustomerName', 'Email']
+2026-07-10 06:52:30,632 - INFO - ===================================
+2026-07-10 06:52:30,633 - INFO - DATA COMPARE : PASS
+2026-07-10 06:52:30,633 - INFO - No mismatched rows found.
+2026-07-10 06:52:30,633 - INFO - ===================================

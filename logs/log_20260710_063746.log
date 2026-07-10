@@ -1,0 +1,21 @@
+2026-07-10 06:37:46,207 - INFO - ========================================
+2026-07-10 06:37:46,208 - INFO - DATA COMPARE : FAIL
+2026-07-10 06:37:46,208 - INFO - ========================================
+2026-07-10 06:37:46,208 - INFO - Total Mismatched Rows : 5
+2026-07-10 06:37:46,211 - INFO - 
+ CustomerID CustomerName          Email      City Country datafrom
+        2.0   Jane Smith jane@gmail.com Hyderabad   India   SOURCE
+        3.0   Ravi Kumar ravi@gmail.com   Chennai   India   SOURCE
+        2.0          NaN jane@gmail.com Hyderabad   India   TARGET
+        3.0         Null ravi@gmail.com   Chennai   India   TARGET
+        NaN   Ravi Kumar ravi@gmail.com   Chennai   India   TARGET
+2026-07-10 06:37:46,217 - INFO - 
+2026-07-10 06:37:46,217 - INFO - ----------------------------------------
+2026-07-10 06:37:46,217 - INFO - Column Mismatch : CustomerName
+2026-07-10 06:37:46,217 - INFO - Mismatch Count : 2
+2026-07-10 06:37:46,217 - INFO - ----------------------------------------
+2026-07-10 06:37:46,219 - INFO - 
+ CustomerID CustomerName_source CustomerName_target
+          2          Jane Smith                 NaN
+          3          Ravi Kumar                Null
+2026-07-10 06:37:46,221 - INFO - FINAL STATUS : FAIL

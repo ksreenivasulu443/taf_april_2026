@@ -1,9 +1,7 @@
 CustomerID,CustomerName,Email,City,Country
-1,John Doe,john@gmail.com,Bangalore,India
-2,nan,jane@gmail.com,Hyderabad,India
-3,Null,ravi@gmail.com,Chennai,India
-5,Ravi Kumar,ravi@gmail.com,Chennai,India
-5,Ravi Kumar,ravi@gmail.com,Chennai,India
-,Ravi Kumar,ravi@gmail.com,Chennai,India
+1,John Doe,john@test.com,Bangalore,India
+2,Jane Smith,jane@gmail.com,ghg,India
+3,Ravi Kumar,ravi@gmail.com,Chennai,India
+5,Ravi kk,ravi@gmail.com,Chennai,India
 
 

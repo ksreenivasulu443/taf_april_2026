@@ -1,0 +1,45 @@
+2026-07-08 08:30:44,284 - INFO - Source DataFrame Shape: (4, 5)
+2026-07-08 08:30:44,286 - INFO - Source DataFrame:
+ CustomerID CustomerName          Email      City Country
+          1     John Doe john@gmail.com Bangalore   India
+          2   Jane Smith jane@gmail.com Hyderabad   India
+          3   Ravi Kumar ravi@gmail.com   Chennai   India
+          5   Ravi Kumar ravi@gmail.com   Chennai   India
+2026-07-08 08:30:44,300 - INFO - failed df DataFrame:
+Empty DataFrame
+Columns: [CustomerID]
+Index: []
+2026-07-08 08:30:44,300 - INFO - no failed records
+2026-07-08 08:30:44,301 - INFO - missing row DataFrame:
+Empty DataFrame
+Columns: [CustomerID]
+Index: []
+2026-07-08 08:30:44,312 - INFO - missing row DataFrame:
+ CustomerID
+        NaN
+2026-07-08 08:30:44,519 - INFO - Duplicate rows
+ CustomerID  count
+        5.0      2
+2026-07-08 08:30:44,532 - INFO - Duplicate values found in column: CustomerID
+2026-07-08 08:30:44,533 - INFO - 
+ CustomerID  count
+        5.0      2
+2026-07-08 08:30:44,535 - INFO - Duplicate values found in column: CustomerName
+2026-07-08 08:30:44,536 - INFO - 
+CustomerName  count
+  Ravi Kumar      3
+2026-07-08 08:30:44,536 - INFO - Duplicate counts per column: {'CustomerID': 1, 'CustomerName': 1}
+2026-07-08 08:30:44,536 - INFO - Uniqueness Check Status: FAIL
+2026-07-08 08:30:44,546 - INFO - Checking column: CustomerID
+2026-07-08 08:30:44,556 - INFO - Column 'CustomerID' has 1 invalid/null records.
+2026-07-08 08:30:44,557 - INFO - 
+ CustomerID CustomerName          Email    City Country
+        NaN   Ravi Kumar ravi@gmail.com Chennai   India
+2026-07-08 08:30:44,557 - INFO - Checking column: CustomerName
+2026-07-08 08:30:44,560 - INFO - Column 'CustomerName' has 2 invalid/null records.
+2026-07-08 08:30:44,565 - INFO - 
+ CustomerID CustomerName          Email      City Country
+        2.0          NaN jane@gmail.com Hyderabad   India
+        3.0         Null ravi@gmail.com   Chennai   India
+2026-07-08 08:30:44,565 - INFO - Null Value Check Status: FAIL
+2026-07-08 08:30:44,565 - INFO - Failures: [{'column': 'CustomerID', 'null_count': 1, 'sample_failed_records': [{'CustomerID': nan, 'CustomerName': 'Ravi Kumar', 'Email': 'ravi@gmail.com', 'City': 'Chennai', 'Country': 'India'}]}, {'column': 'CustomerName', 'null_count': 2, 'sample_failed_records': [{'CustomerID': 2.0, 'CustomerName': nan, 'Email': 'jane@gmail.com', 'City': 'Hyderabad', 'Country': 'India'}, {'CustomerID': 3.0, 'CustomerName': 'Null', 'Email': 'ravi@gmail.com', 'City': 'Chennai', 'Country': 'India'}]}]

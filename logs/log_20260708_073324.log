@@ -1,0 +1,3 @@
+2026-07-08 07:33:24,862 - CRITICAL - this is logging error message
+2026-07-08 07:33:24,862 - WARNING - this is logging warn message
+2026-07-08 07:33:24,862 - ERROR - this is logging error message
