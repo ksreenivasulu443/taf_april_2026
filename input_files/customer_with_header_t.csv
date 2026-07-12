@@ -1,8 +1,8 @@
-CustomerID,CustomerName,Email,City,Country
-1,John Doe,john@test.com,bng,India
-2,Jane Smith,jane@gmail.com,ghg,India
-3,Ravi Kumar,ravi@gmail.com,Chennai,India
-5,Ravi kk,ravi@gmail.com,Chennai,India
-7,Ravi kk,ravi@gmail.com,Chennai,India
+CustomerID,CustomerName,Email,City,Country, create_date
+1,John Doe,john@gmail.com,Bangalore,India
+2,James bond,bond@gmail.com,Hyderabad,India
+3,Ravi Kumar,ravi@gmail.com,Chennai,Indian
+11,hari,hari@gmail.com,Pune,India
+
 
 
